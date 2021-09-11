@@ -22,7 +22,7 @@ TODO
 
 ## Download, run and configure Redis
 
-* Please review repository: [01-download-redis](../../01-download-redis)
+* Please review repository: [01-download-redis](../../../01-download-redis)
 
 ## Functionalities
 
