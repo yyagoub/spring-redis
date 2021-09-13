@@ -2,6 +2,7 @@
 
 * [Introduction](../../#Introduction)
 * [Download and configure Redis](../../#Download-and-configure-Redis)
+* [Maven dependencies](../../#Maven-dependencies)
 * [Functionalities](../../#Functionalities)
 
 ## Introduction
@@ -17,12 +18,22 @@ TODO
 * Spring boot
 * Spring web **REST**
 * Lombok
-* Redis
+* Spring data Redis
+* Jedis
 * Maven
 
 ## Download, run and configure Redis
 
-* Please review repository: [01-download-redis](../../../01-download-redis)
+* Please review repository: [01-download-redis](https://github.com/yyagoub/spring-redis/tree/main/01-download-redis)
+
+## Maven dependencies
+
+Two dependencies required in pom.xml file for Spring boot:
+
+* spring-boot-starter-data-redis
+* jedis
+
+once added to pom.xml file spring boot will auto-configure it as data-source.
 
 ## Functionalities
 
