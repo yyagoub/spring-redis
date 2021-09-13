@@ -22,6 +22,8 @@ TODO
 * Jedis
 * Maven
 
+**NOTE:** *reference: https://frontbackend.com/spring-boot/getting-started-with-spring-data-redis*
+
 ## Download, run and configure Redis
 
 * Please review repository: [01-download-redis](https://github.com/yyagoub/spring-redis/tree/main/01-download-redis)
